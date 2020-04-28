@@ -1,0 +1,32 @@
+.puzzle-piece {
+  display: inline-block;
+  vertical-align: top;
+  height: 3em;
+  width: 3em;
+  outline: 1px solid red;
+  text-align: center;
+}
+.puzzle {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.puzzle.simple {
+  width: calc(3em * 3);
+}
+
+.puzzle.difficult {
+  width: calc(3em * 4);
+}
+
+.puzzle-done {
+  background-color: #888;
+}
+
+.puzzle-extra {
+  color: #0f0;
+}
+
+.puzzle-need {
+  font-size: 0.8em;
+}
